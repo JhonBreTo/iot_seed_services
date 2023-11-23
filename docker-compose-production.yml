@@ -15,7 +15,7 @@ services:
     restart: always
     working_dir: /home/node/app
     volumes:
-      - ./iot_seed_app/:/home/node/app
+      - ./app/:/home/node/app
     ports:
       - "3000:3000"
       - "3001:3001"
